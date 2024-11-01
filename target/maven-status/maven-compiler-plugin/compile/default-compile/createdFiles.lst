@@ -1,4 +1,13 @@
-org/acumen/training/codes/itema/SimpleCalcuServlet.class
 org/acumen/training/codes/itema/exceptions/DecimalPrecisionException.class
-org/acumen/training/codes/itema/exceptions/LimitException.class
+org/acumen/training/codes/itemb/BookEntryServlet.class
+org/acumen/training/codes/itemb/exceptions/EmptyFieldException.class
 org/acumen/training/codes/itema/exceptions/EmptyOperandException.class
+org/acumen/training/codes/itemb/service/BookFileSaveService.class
+org/acumen/training/codes/itema/SimpleCalcuServlet.class
+org/acumen/training/codes/itemb/exceptions/ISBNLengthException.class
+org/acumen/training/codes/itemb/exceptions/IntegerParsingException.class
+org/acumen/training/codes/itemb/exceptions/DoubleParsingException.class
+org/acumen/training/codes/itema/exceptions/LimitException.class
+org/acumen/training/codes/itemb/handler/BookEntryHandler.class
+org/acumen/training/codes/itemb/BookDeleteServlet.class
+org/acumen/training/codes/itemb/model/Book.class
