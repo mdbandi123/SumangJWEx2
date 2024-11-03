@@ -4,6 +4,7 @@
 	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
 	version="6.0">
 	<display-name>sumangjwex2</display-name>
+	
 	<!-- item a -->
 	<servlet>
 		<servlet-name>calculator</servlet-name>
@@ -26,15 +27,15 @@
 		<location>/jsp/error/operand_type_error.jsp</location>
 	</error-page>
 	<error-page>
-		<exception-type>org.acumen.training.codes.itema.exceptions.DecimalPrecisionException</exception-type>
+		<exception-type>org.acumen.training.codes.exceptions.DecimalPrecisionException</exception-type>
 		<location>/jsp/error/decimal_error.jsp</location>
 	</error-page>
 	<error-page>
-		<exception-type>org.acumen.training.codes.itema.exceptions.EmptyOperandException</exception-type>
+		<exception-type>org.acumen.training.codes.exceptions.EmptyOperandException</exception-type>
 		<location>/jsp/error/empty_operand_error.jsp</location>
 	</error-page>
 	<error-page>
-		<exception-type>org.acumen.training.codes.itema.exceptions.LimitException</exception-type>
+		<exception-type>org.acumen.training.codes.exceptions.LimitException</exception-type>
 		<location>/jsp/error/limit_error.jsp</location>
 	</error-page>
 

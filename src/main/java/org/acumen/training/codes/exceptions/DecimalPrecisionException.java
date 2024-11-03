@@ -1,14 +1,14 @@
-package org.acumen.training.codes.itema.exceptions;
+package org.acumen.training.codes.exceptions;
 
 import jakarta.servlet.ServletException;
 
-public class LimitException extends ServletException{
+public class DecimalPrecisionException extends ServletException{
 	private String errorMessage;
 	
-	public LimitException() {
+	public DecimalPrecisionException() {
 	}
 	
-	public LimitException(String errorMessage) {
+	public DecimalPrecisionException(String errorMessage) {
 		this.errorMessage = errorMessage;
 	}
 
@@ -22,4 +22,5 @@ public class LimitException extends ServletException{
 	public String getMessage() {
 		return this.errorMessage;
 	}
+
 }

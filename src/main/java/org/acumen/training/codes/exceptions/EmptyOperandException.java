@@ -1,4 +1,4 @@
-package org.acumen.training.codes.itema.exceptions;
+package org.acumen.training.codes.exceptions;
 
 import jakarta.servlet.ServletException;
 
