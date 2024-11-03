@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Books</title>
+<title>Bookstore</title>
 </head>
 <body>
 	<c:set var="books" value="${requestScope.books}"></c:set>

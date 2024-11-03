@@ -14,7 +14,7 @@
 		<a href="/sumangweb2/book/handler/save">
 			<button type="button" style="padding: .5em 2em; font-size:1em">List Books</button>
 		</a>
-		<a href="/sumangweb2/book/delete">
+		<a href="/sumangweb2/book/service/fileread">
 			<button type="button" style="padding: .5em 2em; font-size:1em">Delete Book</button>
 		</a>
 	</section>

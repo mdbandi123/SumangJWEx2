@@ -64,7 +64,6 @@
 		<servlet-name>list_books</servlet-name>
 		<url-pattern>/jsp/book/list_books.html</url-pattern>
 	</servlet-mapping>
-
 	<servlet>
 		<servlet-name>delete_book</servlet-name>
 		<jsp-file>/WEB-INF/jsp/itemb/delete_book.jsp</jsp-file>
@@ -73,22 +72,25 @@
 		<servlet-name>delete_book</servlet-name>
 		<url-pattern>/jsp/book/delete_book.html</url-pattern>
 	</servlet-mapping>
-
 	<error-page>
-		<exception-type>org.acumen.training.codes.itemb.exceptions.DoubleParsingException</exception-type>
-		<location>/jsp/error/empty_operand_error.jsp</location>
+		<exception-type>org.acumen.training.codes.exceptions.DoubleParsingException</exception-type>
+		<location>/jsp/error/generic_error.jsp</location>
 	</error-page>
 	<error-page>
-		<exception-type>org.acumen.training.codes.itemb.exceptions.EmptyFieldException</exception-type>
-		<location>/jsp/error/empty_operand_error.jsp</location>
+		<exception-type>org.acumen.training.codes.exceptions.EmptyFieldException</exception-type>
+		<location>/jsp/error/generic_error.jsp</location>
 	</error-page>
 	<error-page>
-		<exception-type>org.acumen.training.codes.itemb.exceptions.IntegerParsingException</exception-type>
-		<location>/jsp/error/empty_operand_error.jsp</location>
+		<exception-type>org.acumen.training.codes.exceptions.IntegerParsingException</exception-type>
+		<location>/jsp/error/generic_error.jsp</location>
 	</error-page>
 	<error-page>
-		<exception-type>org.acumen.training.codes.itemb.exceptions.ISBNLengthException</exception-type>
-		<location>/jsp/error/empty_operand_error.jsp</location>
+		<exception-type>org.acumen.training.codes.exceptions.ISBNLengthException</exception-type>
+		<location>/jsp/error/generic_error.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/jsp/error/generic_error.jsp</location>
 	</error-page>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>

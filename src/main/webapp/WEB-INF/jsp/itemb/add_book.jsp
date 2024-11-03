@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Book</title>
+<title>Bookstore</title>
 </head>
 <body>
 	<section>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Book</title>
+<title>Bookstore</title>
 </head>
 <body>
 	<section style="display: flex; flex-direction: column; gap:1.5em">
@@ -14,7 +14,7 @@
 		<a href="/sumangweb2/book/handler/save">
 			<button type="button" style="padding: .5em 2em; font-size:1em">List Books</button>
 		</a>
-		<a href="/sumangweb2/book/delete">
+		<a href="/sumangweb2/book/service/fileread">
 			<button type="button" style="padding: .5em 2em; font-size:1em">Delete Book</button>
 		</a>
 	</section>
